@@ -5,7 +5,7 @@ from flask import Flask, render_template, request
 app = Flask(__name__)
 
 # Identificar la ruta de la app
-@app.route('/cifrado', methods=['GET', 'POST'])
+@app.route('/', methods=['GET', 'POST'])
 def encrypt():
 
     # Si se presionó un botón
